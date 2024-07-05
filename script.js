@@ -6,16 +6,10 @@ function shuffle(array) {
 }
 
 let messages = ["You won", "You lost", "You lost"];
-shuffle(messages);
+shuffle(messages); 
 
-function firstMessage() {       
-    document.getElementById("messageToDisplay").innerHTML = messages[0];
-}
-
-function secondMessage() {       
-    document.getElementById("messageToDisplay").innerHTML = messages[1];
-}
-
-function thirdMessage() {       
-    document.getElementById("messageToDisplay").innerHTML = messages[2];
+function displayMessage(clickedId) {
+    document.getElementById("messageToDisplay").innerHTML 
+    = messages[clickedId];
+    
 }
