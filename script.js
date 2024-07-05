@@ -10,6 +10,5 @@ shuffle(messages);
 
 function displayMessage(clickedId) {
     document.getElementById("messageToDisplay").innerHTML 
-    = messages[clickedId];
-    
+    = messages[clickedId];    
 }
