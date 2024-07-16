@@ -9,6 +9,5 @@ let messages = ["You won", "You lost", "You lost"];
 shuffle(messages); 
 
 function displayMessage(clickedId) {
-    document.getElementById("messageToDisplay").innerHTML 
-        = messages[clickedId];    
+    document.getElementById("messageToDisplay").innerHTML = messages[clickedId];            
 }
